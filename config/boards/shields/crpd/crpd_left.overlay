@@ -18,8 +18,8 @@
 
 &i2c0 {
   status = "okay";
-  sda-pin = <6>;
-  scl-pin = <8>;
+  sda-pin = <26>;
+  scl-pin = <27>;
   clock-frequency = <I2C_BITRATE_STANDARD>;
 
   oled: ssd1306@3c {
