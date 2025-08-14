@@ -54,7 +54,7 @@
      multiplex-ratio = <31>;
      segment-remap;
      com-invdir;
-     precharge-period = <0x22>;
+     prechargep = <0x22>;
      vcomh = <0x20>;
    };
  };
