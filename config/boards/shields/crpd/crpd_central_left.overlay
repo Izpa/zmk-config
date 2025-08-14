@@ -16,7 +16,7 @@
               <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 };
 
- / {
+/ {
    chosen {
      zephyr,display = &oled;
    };
@@ -43,7 +43,7 @@
    pinctrl-names = "default", "sleep";
 
    oled: ssd1306@3c {
-     compatible = "solomon,ssd1306";
+     compatible = "solomon,ssd1306fb-i2c";
      reg = <0x3c>;
      status = "okay";
      width = <128>;
