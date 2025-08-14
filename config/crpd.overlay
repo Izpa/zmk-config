@@ -1,5 +1,0 @@
-&i2c0 {
-    ssd1306@3c {
-        segment-offset = <0>;
-    };
-};
