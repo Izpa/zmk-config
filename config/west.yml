@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/carrefinho
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: not-in-stock
-      url-base: https://github.com/not-in-stock
     - name: urob
       url-base: https://github.com/urob
   projects:
