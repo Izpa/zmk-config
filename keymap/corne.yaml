@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BASE:
-  - \
+  - ''
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - ''
   - ''
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
-  - ''''
+  - ''
   - ''
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - ']'
+  - ''
   - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   - {t: '$$mdi:keyboard-tab$$', h: NAV}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: CONF}
   SYM:
   - ''
-  - EP TOG
+  - ''
   - ''
   - ''
   - ''
@@ -97,7 +97,7 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
+  - ''
   - ''
   - ''
   - '5'
@@ -301,11 +301,10 @@ layers:
   - ''
   - ''
   - {type: held}
-  GAME: ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O, P, '', '$$mdi:keyboard-tab$$', A, S, D, F, G, H, J, K, L, ;, '', '$$mdi:apple-keyboard-shift$$', Z, X,
-    C, V, B, N, M, ',', ., /, '', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-control$$', '$$mdi:keyboard-space$$', '$$mdi:keyboard-return$$', '$$mdi:backspace-outline$$',
-    GAME_N]
+  GAME: ['&__', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-control$$',
+    '$$mdi:keyboard-space$$', '$$mdi:keyboard-return$$', '$$mdi:backspace-outline$$', GAME_N]
   GAME_N:
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -316,6 +315,8 @@ layers:
   - '8'
   - '9'
   - '0'
+  - ''
+  - ''
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
@@ -326,6 +327,8 @@ layers:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - ''
+  - ''
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
@@ -336,14 +339,10 @@ layers:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - ''
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {type: held}
